@@ -1,0 +1,41 @@
+@import '../styles/colors';
+
+$text: $darker;
+$button-background: $primary;
+$button-text: $lighter;
+$button-shadow: rgba(0,0,0,0.75);
+
+.quizzes {
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+.text {
+  margin: .5em;
+  color: $text;
+}
+
+.selection {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.button {
+  border: none;
+  display: block;
+  cursor: pointer;
+
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: $button-background;
+  color: $button-text;
+
+  border-radius: 3px;
+  -webkit-box-shadow: 3px 3px 5px 0px $button-shadow;
+  -moz-box-shadow: 3px 3px 5px 0px $button-shadow;
+  box-shadow: 3px 3px 5px 0px $button-shadow;
+
+  margin: .5em;
+  padding: .3em;
+}

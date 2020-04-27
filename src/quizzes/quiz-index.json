@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Nerd Quiz",
+    "file": "nerd-quiz.json"
+  },
+  {
+    "id": 2,
+    "name": "Rock Quiz",
+    "file": "rock-quiz.json"
+  }
+]

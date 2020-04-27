@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "timeLimitInSeconds": 20,
+    "text": "In What Year did the late Ronnie James Dio replace Ozzy Osbourne as vocalist in Black Sabbath?",
+    "choices": ["1977", "1978", "1979", "1980"],
+    "answer": "1979"
+  },
+  {
+    "id": "2",
+    "timeLimitInSeconds": 20,
+    "text": "What is the real name of Gene Simmons, the bassist of KISS?",
+    "choices": ["Gene Simmons", "Vincent Furnier", "Chaim Witz", "James Osterberg"],
+    "answer": "Chaim Witz"
+  },
+  {
+    "id": "3",
+    "timeLimitInSeconds": 20,
+    "text": "What is the title of the book that was the inspiration for Metallica's song One?",
+    "choices": ["The Satanic Bible", "Johnny Got His Gun", "So Long, And Thanks For All The Fish", "The Lord of the Rings"],
+    "answer": "Johnny Got His Gun"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "unique_id_1",
+    "timeLimitInSeconds": 20,
+    "text": "What is the answer to life, the universe and everything?",
+    "choices": ["40", "41", "42", "43"],
+    "answer": "42"
+  }, {
+    "id": "unique_id_2",
+    "timeLimitInSeconds": 20,
+    "text": "What is the name of the Colour of Magic?",
+    "choices": ["Octopus", "Octarine", "Ocarina", "Octagon"],
+    "answer": "Octarine"
+  }, {
+    "id": "unique_id_3",
+    "timeLimitInSeconds": 20,
+    "text": "What is the name of the cypher that is used with a deck of playing cards in Cryptonomicon?",
+    "choices": ["Finux", "Pontificum", "Eruditorum", "Pontifex"],
+    "answer": "Pontifex"
+  }, {
+    "id": "unique_id_4",
+    "timeLimitInSeconds": 20,
+    "text": "What is the name of Arya's sword?",
+    "choices": ["Ice", "Fang", "Needle", "Pointy end"],
+    "answer": "Needle"
+  }, {
+    "id": "unique_id_5",
+    "timeLimitInSeconds": 20,
+    "text": "From what direction do all highstorms originate?",
+    "choices": ["North", "East", "South", "West"],
+    "answer": "East"
+  }, {
+    "id": "unique_id_6",
+    "timeLimitInSeconds": 20,
+    "text": "What is the name of the map that revealed all of Hogwards?",
+    "choices": ["Marauder's Map", "Map of Secrets", "Animagus Map", "Map of Requirements"],
+    "answer": "Marauder's Map"
+  }, {
+    "id": "unique_id_7",
+    "timeLimitInSeconds": 20,
+    "text": "On Weathertop, which type of blade is Frodo stabbed with?",
+    "choices": ["Gondorian", "Ulmo", "Elven", "Morgul"],
+    "answer": "Morgul"
+  }, {
+    "id": "unique_id_8",
+    "timeLimitInSeconds": 20,
+    "text": "Which poisonous berries result in a tribute’s death?",
+    "choices": ["Nightshadow", "Nightlock", "Nightshade", "Nightwish"],
+    "answer": "Nightlock"
+  }
+]

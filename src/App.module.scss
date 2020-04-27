@@ -1,0 +1,32 @@
+@import 'styles/colors';
+
+$header-background: $darker;
+$header-color-top: $darker;
+$header-color-bottom: $dark;
+$header-text: $lighter;
+
+.app {
+  background-color: $background;
+  text-align: left;
+  height: 100vh;
+}
+
+.header {
+  background-color: $header-background;
+  background: linear-gradient(180deg, $header-color-top, $header-color-bottom);
+  color: $header-text;
+
+  font-size: calc(2em + 2vmin);
+  font-weight: bold;
+  text-align: center;
+
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  background-color: $background;
+}

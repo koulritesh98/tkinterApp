@@ -1,0 +1,55 @@
+@import '../styles/colors';
+
+$question-text: $darker;
+
+$choice-background: $primary;
+$choice-text: $lighter;
+$choice-selected-background: $lighter;
+$choice-selected-text: $darker;
+$choice-shadow: rgba(0,0,0,0.75);
+
+.question {
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+.text {
+  margin: .5em;
+  color: $question-text;
+}
+
+.choices {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.choice {
+  display: block;
+  cursor: pointer;
+
+  text-align: center;
+  font-size: 1em;
+  background-color: $choice-background;
+  color: $choice-text;
+
+  border-radius: 3px;
+  -webkit-box-shadow: 3px 3px 5px 0px $choice-shadow;
+  -moz-box-shadow: 3px 3px 5px 0px $choice-shadow;
+  box-shadow: 3px 3px 5px 0px $choice-shadow;
+
+  margin: .5em;
+  padding: .3em;
+}
+
+.choice.selected {
+  background-color: $choice-selected-background;
+  color: $choice-selected-text;
+
+  -webkit-box-shadow: inset 0px 0px 5px 0px $choice-shadow;
+  -moz-box-shadow: inset 0px 0px 5px 0px $choice-shadow;
+  box-shadow: inset 0px 0px 5px 0px $choice-shadow;
+}
+
+.choice input[type='radio'] {
+  display: none;
+}

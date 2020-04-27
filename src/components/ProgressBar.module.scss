@@ -1,0 +1,30 @@
+@import '../styles/colors';
+
+$progress-high: $dark;
+$progress-middle: $light;
+$progress-low: $lighter;
+
+.progress {
+  width: 100%;
+  height: 2em;
+}
+
+.progressBar {
+  height: 2em;
+  width: 100%;
+
+  transition: width 1s, background-color 1s ease;
+  transition-timing-function: linear;
+}
+
+.high {
+  background-color: $progress-high;
+}
+
+.middle {
+  background-color: $progress-middle;
+}
+
+.low {
+  background-color: $progress-low;
+}
