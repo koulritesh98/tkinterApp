@@ -50,4 +50,4 @@ To manually deploy use the Heroku CLI tools and GIT.
 ```bash
 git push heroku master
 ```
-# tkinterApp has to get some app up and running in docker conatiner
+# tkinterApp has to get the app up and running in docker container with the information provided.
